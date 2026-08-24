@@ -1,0 +1,12 @@
+# This file is used to override language statistics
+*.woff2 binary
+build/* linguist-vendored
+
+vendor/* linguist-vendored
+Cargo.lock linguist-generated
+node_modules/* linguist-vendored
+public/**/*.html linguist-vendored
+go.sum linguist-generated
+public/* linguist-vendored
+*.js linguist-detectable
+*.json linguist-detectable=false
